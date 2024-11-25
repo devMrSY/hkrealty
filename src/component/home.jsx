@@ -47,7 +47,7 @@ const Home = () => {
                 <a href="">Properties</a>
               </li>
               <li>
-                <a href="">Agents</a>
+                <Link to="/privacy">Privacy</Link>
               </li>
               <li className="dropdown">
                 <a href="#">
