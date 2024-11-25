@@ -1,21 +1,11 @@
 import React from 'react';
 import './privacy-policy.css'
+import NavBar from '../navbar';
 
 const PrivacyPolicy = () => {
     return (
         <div>
-            <header style={headerStyle}>
-                <div style={containerStyle}>
-                    <h1 style={titleStyle}>HK Realty</h1>
-                    <nav aria-label="Main navigation">
-                        <ul style={navStyle}>
-                            <li><a href="#home" style={linkStyle}>Home</a></li>
-                            <li><a href="#about" style={linkStyle}>About</a></li>
-                            <li><a href="#contact" style={linkStyle}>Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+            <NavBar/>
             <h2>Welcome to HK Realty Group</h2>
             <h2>Privacy Policy</h2>
             <p>Last updated: November 24, 2024</p>
